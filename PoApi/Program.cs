@@ -1,5 +1,6 @@
 using PoApi.Models;
 using Microsoft.Extensions.Azure;
+using Azure.Identity;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
