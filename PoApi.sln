@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoApi", "PoApi\PoApi.csproj", "{EE1D613B-1203-48A1-8204-955727D6CA7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{86299D89-A6E4-4B42-9FDB-FD8062EA06F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE1D613B-1203-48A1-8204-955727D6CA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1D613B-1203-48A1-8204-955727D6CA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1D613B-1203-48A1-8204-955727D6CA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1D613B-1203-48A1-8204-955727D6CA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86299D89-A6E4-4B42-9FDB-FD8062EA06F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86299D89-A6E4-4B42-9FDB-FD8062EA06F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86299D89-A6E4-4B42-9FDB-FD8062EA06F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86299D89-A6E4-4B42-9FDB-FD8062EA06F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61E6DB72-F8F4-4900-808D-546E06502EE1}
+	EndGlobalSection
+EndGlobal

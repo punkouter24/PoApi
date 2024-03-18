@@ -1,0 +1,24 @@
+@PoApi_HostAddress = http://localhost:5222
+
+GET {{PoApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+### Add a new high score
+POST {{PoApi_HostAddress}}/highscores
+Content-Type: application/json
+
+{
+  "Name": "Test User",
+  "Score": 95.5,
+  "AppName": "TestGame"
+}
+
+###
+
+### Get top 10 high scores
+GET {{PoApi_HostAddress}}/highscores/top
+Accept: application/json
+
+###
