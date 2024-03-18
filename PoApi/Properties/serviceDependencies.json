@@ -5,13 +5,13 @@
       "connectionId": "ConnectionStrings:AzureTableStorage",
       "dynamicId": null
     },
-    "apis1": {
-      "type": "apis"
-    },
     "secrets1": {
       "type": "secrets",
       "connectionId": "VaultUri",
       "dynamicId": null
+    },
+    "apis1": {
+      "type": "apis"
     }
   }
 }

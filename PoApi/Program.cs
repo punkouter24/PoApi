@@ -15,11 +15,11 @@ builder.Services.AddSingleton<IHighScoreService, HighScoreService>();
 WebApplication app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     _ = app.UseSwagger();
     _ = app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 
