@@ -7,14 +7,6 @@
       "type": "storage.azure",
       "connectionId": "ConnectionStrings:AzureTableStorage",
       "dynamicId": null
-    },
-    "secrets1": {
-      "type": "secrets.user",
-      "dynamicId": null
-    },
-    "apis1": {
-      "ignored": "true",
-      "type": "apis"
     }
   }
 }

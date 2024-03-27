@@ -25,6 +25,9 @@ app.UseHttpsRedirection();
 
 
 
+
+
+
 // Endpoint to add a high score
 app.MapPost("/highscores", async (HighScore highScore, IHighScoreService highScoreService) =>
 {
